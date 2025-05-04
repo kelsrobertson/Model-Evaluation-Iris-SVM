@@ -1,1 +1,31 @@
+# Data Folder
 
+This folder contains the dataset used in this project.
+
+## iris_flower_dataset.csv
+
+This CSV file contains data from the well-known Iris dataset, commonly used for classification and pattern recognition tasks.
+
+### Dataset Description
+
+Each row represents a unique iris flower sample, including measurements of its physical characteristics and its species.
+
+| Column         | Description                          |
+|----------------|--------------------------------------|
+| `sepal_length` | Sepal length in centimeters          |
+| `sepal_width`  | Sepal width in centimeters           |
+| `petal_length` | Petal length in centimeters          |
+| `petal_width`  | Petal width in centimeters           |
+| `class`        | Iris species (Setosa, Versicolor, Virginica) |
+
+### Dataset Summary
+- **Instances**: 150
+- **Classes**: 3 (`Iris-setosa`, `Iris-versicolor`, `Iris-virginica`)
+- **Features**: 4 numeric (all float)
+
+### Source
+Originally from the [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/iris), this dataset is widely used to evaluate classification algorithms such as:
+- Support Vector Machines (SVM)
+- k-Nearest Neighbors (k-NN)
+- Decision Trees
+- Perceptrons
